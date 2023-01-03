@@ -102,3 +102,8 @@ var animal = SingletonClass.Animal;
 var kid = new Kid(20, "111", DateTime.MinValue);
 Console.WriteLine(kid.Birthday);
 Console.WriteLine(kid.Age);
+
+object left = 1;
+object right = 1;
+Console.WriteLine(left == right);
+Console.WriteLine(left.Equals(right));
